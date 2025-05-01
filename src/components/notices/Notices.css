@@ -1,0 +1,124 @@
+.notices-page {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    background-color: #f4f4f9; /* Light background for contrast */
+    border-radius: 10px; /* Rounded corners for a softer look */
+}
+
+.admin-form, .notice-display {
+    flex: 1;
+    background-color: #ffffff; /* White background for form and notice display */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px;
+}
+
+.notice-display h2 {
+    font-size: 36px; /* Increased font size for notices heading */
+    margin-bottom: 15px;
+    color: #333; /* Darker color for better readability */
+    text-align: center; /* Center align heading */
+    font-family: 'Arial', sans-serif; /* Change font family */
+    font-weight: bold; /* Make heading bold */
+}
+
+.admin-form h2 {
+    font-size: 28px; /* Font size for form heading */
+    margin-bottom: 15px;
+    color: #333; /* Darker color for better readability */
+    text-align: center; /* Center align form heading */
+}
+
+.admin-form input, .admin-form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px; /* Increased padding for a more comfortable feel */
+    font-size: 16px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded edges */
+    transition: border-color 0.3s;
+}
+
+.admin-form input:focus, .admin-form textarea:focus {
+    border-color: #4CAF50; /* Highlight border on focus */
+    outline: none; /* Remove default outline */
+}
+
+.admin-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px; /* Rounded button */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+.admin-form button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.02); /* Slight scale up effect */
+}
+
+.notice-display .notice-cards {
+    display: flex;
+    flex-direction: column; /* Change to column layout */
+    gap: 20px; /* More space between notice cards */
+}
+
+.notice-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd; /* Light border around cards */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Make card full width */
+    transition: transform 0.3s; /* Animation effect on hover */
+}
+
+.notice-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.notice-card h3 {
+    margin: 0 0 10px;
+    font-size: 24px; /* Increased font size for title */
+    font-weight: bold; /* Make title bold */
+    color: #333;
+}
+
+.notice-card p {
+    margin: 5px 0;
+    font-size: 18px; /* Increased content font size */
+    color: #555; /* Softer text color */
+}
+
+.notice-card small {
+    display: block; /* Ensure timestamp appears on its own line */
+    margin-top: 10px;
+    font-size: 14px; /* Smaller font for timestamp */
+    color: #888; /* Light color for timestamp */
+    text-align: right; /* Align timestamp to the right */
+}
+.admin-form input[type="file"] {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded edges */
+    transition: border-color 0.3s; /* Smooth transition on focus */
+}
+
+.admin-form input[type="file"]:focus {
+    border-color: #4CAF50; /* Highlight border on focus */
+    outline: none; /* Remove default outline */
+}
+
+.admin-form label {
+    font-weight: bold; /* Make label bold for better visibility */
+    margin-bottom: 5px;
+    display: block; /* Ensure label takes up full width */
+}
