@@ -7,14 +7,15 @@ import { getFunctions, httpsCallable } from "firebase/functions"; // Import Clou
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBGTA6XmUTYq3Anytb_1vnmcJ4CGypNwMo",
-  authDomain: "document-management-syst-bf74d.firebaseapp.com",
-  projectId: "document-management-syst-bf74d",
-  storageBucket: "document-management-syst-bf74d.firebasestorage.app", // Fixed storageBucket URL
-  messagingSenderId: "553717752230",
-  appId: "1:553717752230:web:255de3d79d8a470f0aef67",
-  measurementId: "G-TQFS9GK02T"
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
+  measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
 };
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
