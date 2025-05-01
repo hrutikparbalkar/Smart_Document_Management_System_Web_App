@@ -82,10 +82,40 @@ Frontend: React.js, Tailwind CSS
 Backend: Firebase Authentication, Firebase Firestore, Firebase Storage
 
 ### ScreenShots
-### Screenshot 1: Admin Panel
+### Screenshot 1: Login
+
+![Admin Panel](public/images/login.png)
+
+### Screenshot 2: Admin Panel
 
 ![Admin Panel](public/images/home.png)
 
 This is the admin panel where the admin can manage documents and users.
+
+### Screenshot 3: Add User
+
+![Admin Panel](public/images/addUser.png)
+
+### Screenshot 4: Add Document
+
+![Admin Panel](public/images/addDoc.png)
+
+### Screenshot 5: Manage User
+
+![Admin Panel](public/images/manageUser.png)
+
+### Screenshot 6: Chat with User
+
+![Admin Panel](public/images/chat.png)
+
+### Screenshot 7: Create Notices
+
+![Admin Panel](public/images/notices.png)
+
+### Screenshot 8: View Doc
+
+![Admin Panel](public/images/view.png)
+
+
 
 
