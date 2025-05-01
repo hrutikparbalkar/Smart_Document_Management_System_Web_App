@@ -78,5 +78,6 @@ npm start
 
 ### Technologies
 Frontend: React.js, Tailwind CSS
+
 Backend: Firebase Authentication, Firebase Firestore, Firebase Storage
 
