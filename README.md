@@ -1,70 +1,127 @@
-# Getting Started with Create React App
+                                                                  
+## This is a medium header (H1)
+### This is a small header (H3)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a Document Management System that allows users and admins to manage and view documents efficiently. It provides a user-friendly interface for both users and administrators to interact with the system, upload files, view documents, and communicate via real-time chat. The system also sends real-time email notifications to users.
+Table of Contents
+Features
 
-## Available Scripts
+Installation
 
-In the project directory, you can run:
+Usage
 
-### `npm start`
+Technologies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Screenshots
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Features
+Admin Features
+Add Documents: Admin can upload and manage documents in the system.
 
-### `npm test`
+Add Users: Admin can create and manage users, including editing and deleting user details.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Manage Users: Admin can delete, edit, or view user profiles.
 
-### `npm run build`
+Chat with Users: Admin can communicate with users in real-time via the chat feature.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Add Notices: Admin can post notices that all users can view.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Real-Time Email Notifications: Admin can send instant email notifications to users for any updates or changes in the system.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Document Display Page: Admin has access to a page to view and manage all documents uploaded by users.
 
-### `npm run eject`
+User Features
+View Documents: Users can only view documents uploaded by the admin.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Chat with Admin: Users can chat with the admin in real-time for queries or support.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+View Notices: Users can view notices posted by the admin.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Real-Time Email Notifications: Users will receive email notifications about document updates, new notices, etc.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Installation
+Prerequisites
+Make sure you have Node.js and npm installed on your machine.
 
-## Learn More
+Steps to Install
+Clone this repository to your local machine:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/Smart-Document-Management-System.git
+Navigate to the project folder:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+bash
+Copy
+Edit
+cd Smart-Document-Management-System
+Install the dependencies:
 
-### Code Splitting
+bash
+Copy
+Edit
+npm install
+Set up environment variables:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Create a .env file at the root of the project.
 
-### Analyzing the Bundle Size
+Add your Firebase credentials (API key, project ID, etc.) into the .env file.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Example:
 
-### Making a Progressive Web App
+bash
+Copy
+Edit
+REACT_APP_FIREBASE_API_KEY="your_firebase_api_key"
+REACT_APP_FIREBASE_AUTH_DOMAIN="your_firebase_auth_domain"
+REACT_APP_FIREBASE_PROJECT_ID="your_firebase_project_id"
+REACT_APP_FIREBASE_STORAGE_BUCKET="your_firebase_storage_bucket"
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID="your_firebase_messaging_sender_id"
+REACT_APP_FIREBASE_APP_ID="your_firebase_app_id"
+REACT_APP_FIREBASE_MEASUREMENT_ID="your_firebase_measurement_id"
+Run the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+bash
+Copy
+Edit
+npm start
+Your application will be live at http://localhost:3000.
 
-### Advanced Configuration
+Usage
+Admin Panel
+Login as an Admin.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+You can add, edit, or delete users.
 
-### Deployment
+You can upload documents and manage them.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Send notices and chat with users in real time.
 
-### `npm run build` fails to minify
+Manage document visibility for users.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+User Panel
+Login as a User.
+
+View the documents uploaded by the admin.
+
+Chat with the admin for support.
+
+View any notices posted by the admin.
+
+Technologies
+Frontend: React.js, Tailwind CSS
+
+Backend: Firebase Authentication, Firebase Firestore, Firebase Storage
+
+Real-time Chat: Firebase Firestore
+
+Notifications: Firebase Cloud Messaging (FCM)
+
+Email Notifications: Firebase functions to send email using Firebase Cloud Functions (Optional)
+
+Screenshots
+Screenshot 1: Admin Panel
+
+Screenshot 2: User Dashboard
+
