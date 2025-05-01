@@ -84,7 +84,7 @@ Backend: Firebase Authentication, Firebase Firestore, Firebase Storage
 ### ScreenShots
 ### Screenshot 1: Admin Panel
 
-![Admin Panel](public/images/Home.png)
+![Admin Panel](public/images/home.png)
 
 This is the admin panel where the admin can manage documents and users.
 
