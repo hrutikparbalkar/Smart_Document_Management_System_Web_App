@@ -53,7 +53,7 @@ Make sure you have the following installed on your machine:
 ### Steps to Install
 
 1. **Clone this repository to your local machine:**
-git clone https://github.com/yourusername/Smart-Document-Management-System.git
+git clone https://github.com/hrutikparbalkar/Smart_Document_Management_System_Web_App.git
 
 2. **Navigate to the project folder:**
 cd Smart-Document-Management-System
