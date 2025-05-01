@@ -75,3 +75,8 @@ REACT_APP_FIREBASE_MEASUREMENT_ID="your_firebase_measurement_id"
 5. **Run the development server:**
 npm start
 
+
+### Technologies
+Frontend: React.js, Tailwind CSS
+Backend: Firebase Authentication, Firebase Firestore, Firebase Storage
+
