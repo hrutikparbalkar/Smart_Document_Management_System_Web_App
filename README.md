@@ -94,7 +94,7 @@ This is the admin panel where the admin can manage documents and users.
 
 ### Screenshot 3: Add User
 
-![Admin Panel](public/images/addUser.rpng)
+![Admin Panel](public/images/addUser.png)
 
 ### Screenshot 4: Add Document
 
